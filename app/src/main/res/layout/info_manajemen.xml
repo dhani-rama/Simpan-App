@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_info_pribadi"
+    tools:context=".user.info_umum.InfoManajemen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar_info_manajemen"
+        app:layout_constraintBottom_toTopOf="@+id/btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_back18"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:background="@drawable/btn_back_baru"
+        android:paddingLeft="@dimen/_2ssp"
+        android:paddingTop="@dimen/_2ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_20ssp"
+        android:paddingTop="@dimen/_60ssp"
+        android:paddingRight="@dimen/_20ssp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="-8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <!--- Menu PP 53 Kurang Jam -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/btn_pp53_kurang_jam"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@drawable/btn_pp_53" />
+
+                </LinearLayout>
+
+                <!--- Menu Kehadiran Pegawai -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/btn_KehadiranPegawai"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@drawable/btn_kehadiran_pegawai" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <!--- Menu Proses Ajuan -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/btn_ProsesAjuan"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@drawable/btn_proses_ajuan" />
+
+                </LinearLayout>
+
+                <!-- Menu Peta Jabatan -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/btn_PetaJabatan"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@drawable/btn_peta_jabatan" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">-->
+
+                <!-- Rekap Penugasan -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/Rekap_Penugasan"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@drawable/btn_rekap_penugasan" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_10ssp"
+                    android:paddingBottom="@dimen/_10ssp">
+
+                    <Button
+                        android:id="@+id/kosong"
+                        android:layout_width="150dp"
+                        android:layout_height="178dp"
+                        android:background="@android:color/transparent"
+                        tools:ignore="InvalidId" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.info_pribadi.UbahPass">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_info_pribadi"
+        android:paddingLeft="@dimen/_16ssp"
+        android:paddingRight="@dimen/_16ssp"
+        android:paddingTop="@dimen/_60ssp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="10dp"
+            android:background="@drawable/background_transparan"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_16ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:id="@+id/form_ulangi_pass"
+                android:layout_width="300dp"
+                android:layout_height="106dp"
+                android:layout_marginBottom="@dimen/_20ssp"
+                android:background="@drawable/form_ulangi_pas"
+                android:ems="10"
+                android:hint="Ulangi Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="75dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="12dp"
+                android:textColor="#000"
+                android:textColorHint="#000"/>
+
+            <EditText
+                android:id="@+id/form_pass_baru"
+                android:layout_width="300dp"
+                android:layout_height="106dp"
+                android:layout_marginBottom="@dimen/_15ssp"
+                android:background="@drawable/form_pass_baru"
+                android:ems="10"
+                android:hint="Password Baru"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="75dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="12dp"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+
+            <Button
+                android:id="@+id/btn_simpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="264dp"
+                android:background="@drawable/btn_simpan" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar_ubahpass"
+        app:layout_constraintBottom_toTopOf="@+id/btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_back8"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:background="@drawable/btn_back_baru"
+        android:paddingLeft="@dimen/_2ssp"
+        android:paddingTop="@dimen/_2ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

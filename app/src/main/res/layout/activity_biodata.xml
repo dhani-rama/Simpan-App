@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_below="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1"
+        tools:ignore="MissingConstraints,UnknownId">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="185dp">
+            <TextView
+                android:id="@+id/b_nama"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_nama"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="Ahmad ramadhani"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_lahir"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_lahir"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="Malang"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_tgl"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_tgl"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="18 Agustus 1987"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_gender"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_gender"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="Laki-laki"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_agama"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_agama"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="Islam"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_nip"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_nip"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="19202929209"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/b_jab"
+            android:layout_width="395dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/b_jab"
+            android:paddingLeft="125dp"
+            android:paddingTop="1dp"
+            android:text="Staff Negara"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+                android:id="@+id/b_gol"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_gol"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="3 / b"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_pag"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_pag"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="SSS"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_ktun"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_ktun"
+                android:paddingLeft="125dp"
+                android:paddingTop="1dp"
+                android:text="2000000"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_bup"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_bup"
+                android:paddingLeft="125dp"
+                android:paddingTop="2dp"
+                android:text="60"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_pend"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_pend"
+                android:paddingLeft="160dp"
+                android:paddingTop="2dp"
+                android:text="S3"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/b_gdep"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_gdep"
+                android:paddingLeft="160dp"
+                android:paddingTop="1dp"
+                android:text="Proff."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/b_gbel"
+                android:layout_width="395dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/b_gbel"
+                android:paddingLeft="160dp"
+                android:paddingTop="2dp"
+                android:text="M.T"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

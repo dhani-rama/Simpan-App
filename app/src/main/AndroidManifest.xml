@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.vedc.simpan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".user.ajuan.DetailSakit"></activity>
+        <activity android:name=".user.ajuan.DetailIzinDalamJamKerja" />
+        <activity android:name=".user.ajuan.DetailUnggah" />
+        <activity android:name=".user.ajuan.Detail_psw" />
+        <activity android:name=".user.ajuan.DetailTerlambat" />
+        <activity android:name=".user.info_umum.ProsesAjuan" />
+        <activity android:name=".user.info_umum.KehadiranPegawai" />
+        <activity android:name=".user.info_umum.pp53KurangJam" />
+        <activity android:name=".user.info_umum.RekapPenugasanManajemen" />
+        <activity android:name=".user.info_umum.RekapPurnaTugas" />
+        <activity android:name=".user.info_umum.InfoManajemen" />
+        <activity android:name=".user.info_umum.ListPurnaTugas" />
+        <activity android:name=".user.info_umum.DetailProfilPegawai" />
+        <activity android:name=".user.info_umum.ProfilPegawai" />
+        <activity android:name=".user.info_umum.PetaJabatan" />
+        <activity android:name=".user.ajuan.IzinSakit" />
+        <activity android:name=".user.ajuan.IzinDalamKerja" />
+        <activity android:name=".user.ajuan.UploadDoc" />
+        <activity android:name=".user.ajuan.DetailCuti" />
+        <activity android:name=".user.ajuan.PengajuanCuti" />
+        <activity android:name=".user.ajuan.PSW" />
+        <activity android:name=".user.info_pribadi.SubRekap" />
+        <activity android:name=".user.ajuan.IzinTerlambat" />
+        <activity android:name=".user.info_umum.InfoUmum" />
+        <activity android:name=".user.info_pribadi.UbahPass" />
+        <activity android:name=".user.info_pribadi.PP53" />
+        <activity android:name=".user.info_pribadi.LogKehadiran" />
+        <activity android:name=".user.info_pribadi.RekapPenugasan" />
+        <activity android:name=".user.info_pribadi.UangMakan" />
+        <activity android:name=".user.ajuan.Ajuan" />
+        <activity android:name=".user.info_pribadi.Tunkin" />
+        <activity android:name=".user.info_pribadi.Biodata" />
+        <activity android:name=".user.info_pribadi.InfoPribadi" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MenuUtama">
+
+            <!-- -android:theme="@style/SplashTheme"> -->
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
